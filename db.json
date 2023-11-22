@@ -42,5 +42,15 @@
       "id": 2,
       "nome": "tipo2"
     }
+  ],
+  "tiposExibicao": [
+    {
+      "id": 1,
+      "nome": "tipo1"
+    },
+    {
+      "id": 2,
+      "nome": "tipo2"
+    }
   ]
 }
