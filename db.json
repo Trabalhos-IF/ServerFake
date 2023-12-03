@@ -26,10 +26,12 @@
   "assentos": [
     {
       "id": 1,
+      "numero": 32,
       "disponivel": true
     },
     {
       "id": 2,
+      "numero": 15,
       "disponivel": true
     }
   ],
