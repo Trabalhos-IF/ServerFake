@@ -27,12 +27,16 @@
     {
       "id": 1,
       "numero": 32,
-      "disponivel": true
+      "disponivel": true,
+      "idSala": 1,
+      "idTipoAssento": 2
     },
     {
       "id": 2,
       "numero": 15,
-      "disponivel": true
+      "disponivel": true,
+       "idSala": 2,
+      "idTipoAssento": 1
     }
   ],
   "tiposAssento": [
