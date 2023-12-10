@@ -1,62 +1,70 @@
 {
-  "sessoes": [
-    {
-      "id": 1,
-      "cinema": "Josias cinemas",
-      "sala": "3",
-      "filme": "Halloween",
-      "data": "23/09/2024",
-      "horario": "19:00",
-      "valorTicket": "25,00",
-      "reservaAssentoMeia": "0,4",
-      "descontoMeia": "0,5"
-    },
-    {
-      "id": 2,
-      "cinema": "Josias cinemas",
-      "sala": "3",
-      "filme": "Fundação",
-      "data": "24/09/2024",
-      "horario": "20:00",
-      "valorTicket": "30,00",
-      "reservaAssentoMeia": "0,4",
-      "descontoMeia": "0,5"
-    }
-  ],
-  "assentos": [
-    {
-      "id": 1,
-      "numero": 32,
-      "disponivel": true,
-      "idSala": 1,
-      "idTipoAssento": 2
-    },
-    {
-      "id": 2,
-      "numero": 15,
-      "disponivel": true,
-       "idSala": 2,
-      "idTipoAssento": 1
-    }
-  ],
-  "tiposAssento": [
-    {
-      "id": 1,
-      "nome": "tipo1"
-    },
-    {
-      "id": 2,
-      "nome": "tipo2"
-    }
-  ],
-  "tiposExibicao": [
-    {
-      "id": 1,
-      "nome": "tipo1"
-    },
-    {
-      "id": 2,
-      "nome": "tipo2"
-    }
-  ]
+   "sessoes":[
+      {
+         "id":1,
+         "idCinema":2,
+         "idSala":"1",
+         "idFilme":2,
+         "idTipoDeTicket":1,
+         "idTipoDeExibicao":2,
+         "dtExibicao":"23/09/2024",
+         "horarioInicial":"19:00",
+         "tiposDeTicket":[
+            1,
+            2
+         ],
+         "reservaAssentoMeia":"0,4"
+      },
+      {
+         "id":2,
+         "idCinema":1,
+         "idSala":"2",
+         "idFilme":1,
+         "idTipoDeTicket":2,
+         "idTipoDeExibicao":1,
+         "dtExibicao":"25/09/2024",
+         "horarioInicial":"19:00",
+         "tiposDeTicket":[
+            1,
+            2
+         ],
+         "reservaAssentoMeia":"0,4"
+      }
+   ],
+   "assentos":[
+      {
+         "id":1,
+         "numero":32,
+         "disponivel":true,
+         "idSala":1,
+         "idTipoAssento":2
+      },
+      {
+         "id":2,
+         "numero":15,
+         "disponivel":true,
+         "idSala":2,
+         "idTipoAssento":1
+      }
+   ],
+   "tiposAssento":[
+      {
+         "id":1,
+         "nome":"tipo1"
+      },
+      {
+         "id":2,
+         "nome":"tipo2"
+      }
+   ],
+   "tiposExibicao":[
+      {
+         "id":1,
+         "nome":"tipo1"
+      },
+      {
+         "id":2,
+         "nome":"tipo2"
+      }
+   ]
 }
